@@ -11,7 +11,7 @@ const Signup = () => {
   const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4000/signup", {
+    axios.post("https://todo-backend-136c.onrender.com/signup", {
       username,
       email,
       password,
