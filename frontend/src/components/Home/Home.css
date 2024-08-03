@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create_form {
+    display: flex;
+    justify-content: center;
+  
+    input {
+      width: 300px;
+      padding: 10px;
+      border-bottom: 2px solid skyblue;
+      border-radius: 26px;
+      outline: none;
+      margin: 0 6px 0 0;
+    }
+  
+    button {
+      padding: 10px;
+      background-color: rgb(84, 125, 194);
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 16px;
+      min-width: 90px;
+    }
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: rgb(155, 149, 104);
+    border-radius: 16px;
+    color: white;
+    height: 35px;
+    padding: 2px 18px;
+    margin: {
+      top: 2px;
+      left: auto;
+      right: auto;
+    }
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  
+    .icon {
+      margin-right: 5px;
+      font-size: 15px;
+    }
+  }
+  
+  .line_through {
+    text-decoration: line-through;
+  }
+  
+  .task div {
+    span {
+      margin: 0 5px 0 4px;
+    }
+  
+    .icon {
+      cursor: pointer;
+    }
+  }
